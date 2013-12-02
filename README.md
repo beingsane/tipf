@@ -3,6 +3,10 @@
 
 Plugin jQuery para Tooltip simples com callback
 
+## Demo:
+
+http://fabiorogeriosj.com.br/plugin/tipf/
+
 ## Como usar:
 
 Simples!
@@ -19,9 +23,8 @@ Simples!
 </head>
 <body>
 	<div>
-		<h1>jQuery Tipf - Tooltip simples, leve, prático e com callback!</h1>
-		<p>Com apenas 1KB, você pode fazer <a href="#" class="tipf" title="Tooltip simples é bonito :)">Tooltip mais interessante</a> para seu sistema!</p>
-		<p>Também é possível fazer um tooltip com callback declarando o link com o atributo: <code>execjs="nomeDaFuncao(inner)"</code> como o exemplo abaixo:</p>
+		<a href="#" class="tipf" title="Tooltip simples é bonito :)">Link</a>
+		<p>Também é possível fazer um tooltip com callback</p>
 		<p>Ao colocar o mouse sobre <a href="#" class="tipf" execjs="exibeProfile(inner)">esse link</a> o tooltip será aberto e a função declarada no execjs será executada!</p>
 	</div>
 
